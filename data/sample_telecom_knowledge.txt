@@ -1,0 +1,23 @@
+RRC Connection Failure:
+RRC connection failure happens when the user equipment cannot establish or maintain a radio resource control connection with the network. Common causes include poor signal strength, interference, congestion, failed authentication, handover failure, incorrect cell configuration, or overloaded radio resources. Recommended checks include RSRP, RSRQ, SINR, PRACH success rate, random access failures, cell availability, and recent configuration changes.
+
+High Packet Loss:
+High packet loss in LTE or 5G sites can be caused by backhaul congestion, faulty transmission links, microwave link degradation, router errors, QoS misconfiguration, interference, overloaded base stations, or IP routing instability. Engineers should check transport link utilisation, interface errors, jitter, latency, dropped packets, router CPU, QoS queues, and recent network changes.
+
+eNodeB Reset Procedure:
+Before resetting an eNodeB, check active alarms, site traffic, backhaul status, cell availability, maintenance window approval, and customer impact. Inform the NOC supervisor if the site carries high traffic. After reset, verify that all cells return to service, alarms clear, neighbour relations are stable, KPIs recover, and no repeated restart alarm appears.
+
+gNodeB Troubleshooting:
+A 5G gNodeB outage may be caused by power failure, fibre cut, GPS synchronisation issue, DU/CU communication failure, software crash, or transport network fault. Recommended actions include checking power status, transmission path, PTP/GPS clock, fibre alarms, DU/CU logs, and active performance counters.
+
+Handover Failure:
+Handover failure can occur due to incorrect neighbour configuration, poor radio conditions, PCI conflict, timing mismatch, mobility parameter issues, missing neighbour relation, or overloaded target cell. Engineers should check neighbour lists, A3/A5 event thresholds, handover preparation success rate, handover execution success rate, PCI planning, and target cell availability.
+
+Call Drop:
+Call drops may be caused by weak coverage, interference, mobility failure, congestion, VoLTE bearer failure, backhaul instability, or device-related issues. Recommended checks include RSRP, SINR, uplink interference, ERAB drop rate, VoLTE SIP errors, cell load, and recent parameter changes.
+
+PRACH Failure:
+PRACH failure happens when user equipment cannot complete random access successfully. Causes include poor uplink coverage, high interference, wrong PRACH configuration, timing advance issues, or congestion. Check PRACH preamble attempts, success rate, uplink noise, cell radius setting, and random access parameters.
+
+Incident Summary Template:
+Incident title should include affected technology, site ID, and fault type. The summary should include start time, affected services, observed alarms, suspected root cause, actions taken, current status, and next steps. For major incidents, include customer impact, escalation owner, and estimated restoration time.

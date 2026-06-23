@@ -1,0 +1,4 @@
+alarm,severity
+LINK_DOWN,Critical
+CELL_OUTAGE,Major
+HIGH_LATENCY,Minor

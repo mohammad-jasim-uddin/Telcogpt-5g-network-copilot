@@ -1,0 +1,8 @@
+5G Troubleshooting Guide
+
+1. Check transport connectivity.
+2. Verify gNodeB status.
+3. Review alarms.
+4. Validate KPI degradation.
+5. Perform root cause analysis.
+6. Escalate if unresolved.
